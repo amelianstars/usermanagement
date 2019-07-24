@@ -1,0 +1,50 @@
+{
+  "name": "usermanagement",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@carbon/icons-react": "^10.3.0",
+    "@material-ui/core": "^4.1.1",
+    "@material-ui/icons": "^4.2.0",
+    "axios": "^0.18.1",
+    "bootstrap": "^4.3.1",
+    "classnames": "^2.2.6",
+    "dragscroll": "0.0.8",
+    "is-empty": "^1.2.0",
+    "jwt-decode": "^2.2.0",
+    "react": "^16.6.3",
+    "react-bootstrap": "^1.0.0-beta.9",
+    "react-bootstrap-dropdown-menu": "^1.1.15",
+    "react-dom": "^16.6.3",
+    "react-multi-carousel": "^1.4.5",
+    "react-progress-button": "^5.1.0",
+    "react-redux": "^5.1.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.1",
+    "react-slick": "^0.24.0",
+    "reactjs-dropdown-component": "^1.0.6",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0",
+    "slick-carousel": "^1.8.1",
+    "unstyled": "^0.2.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "proxy": "http://localhost:5000",
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "isomorphic-style-loader": "^5.1.0"
+  }
+}
